@@ -1,4 +1,3 @@
-import { IncomingHttpHeaders } from "http";
 import { getAPIKey } from "src/api/auth";
 import { describe, expect, test } from "vitest";
 
