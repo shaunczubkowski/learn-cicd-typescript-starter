@@ -5,7 +5,7 @@ import { describe, expect, test } from "vitest";
 describe("auth", () => {
   describe("getAPIKey", () => {
     test("returns key", () => {
-      expect(getAPIKey({ authorization: "ApiKey 12345" })).toEqual("12345");
+      expect(getAPIKey({ authorization: "ApiKey 12345" })).toEqual("1234");
     });
 
     test("returns null if 'authorization' header is falsey", () => {
